@@ -1,0 +1,36 @@
+div {
+    width: 300px;
+    height: 300px;
+}
+
+#vordefiniert {
+    background-color: mediumslateblue;
+}
+
+#hex {
+    background-color: #BC5300;
+}
+
+#rgb {
+    background-color: rgb(80, 90, 100);
+}
+
+#rgba {
+    background-color: rgba(49, 103, 199, 0.2);
+}
+
+.hintergrund {
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: rgb(160, 40, 133);
+}
+
+#hsl {
+    background-color: hsl(167, 77%, 60%);
+}
+
+#hsla {
+    background-color: hsla(130, 93%, 53%, 0.5);
+}

@@ -1,0 +1,96 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    margin-bottom: 20px;
+
+}
+
+#div1 {
+    border: 20px solid lightblue;
+}
+
+#div2 {
+    border-width: 20px;
+    border-style: solid;
+    border-color: red;
+}
+
+#div3 {
+    border-width: 20px;
+    border-style: dotted;
+    border-color: black;
+}
+
+#div4 {
+    border-width: 20px;
+    border-style: dashed;
+    border-color: black;
+}
+
+#div5 {
+    border-width: 20px;
+    border-style: double;
+    border-color: black;
+}
+
+#div6 {
+    border-width: 20px;
+    border-style: groove;
+    border-color: rgb(162, 241, 94);
+}
+
+#div7 {
+    border-width: 20px;
+    border-style: ridge;
+    border-color: rgb(243, 112, 250);
+}
+
+#div8 {
+    border-width: 20px;
+    border-style: inset;
+    border-color: rgb(255, 117, 117);
+}
+
+#div9 {
+    border-width: 20px;
+    border-style: outset;
+    border-color: rgb(243, 112, 250);
+}
+
+#div10 {
+    border-bottom: 10px solid blue;
+    border-top: 20px dotted red;
+    border-right: 100px groove pink;
+    border-left: 30px dashed green;
+}
+
+#div11 {
+    border-bottom-width: 20px;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(255, 117, 117);
+}
+
+#div12 {
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 400px;
+    padding: 15px;
+    font-size: 20px;
+    box-sizing:border-box;
+    background-color: deepskyblue;
+    border-left: 10px solid dodgerblue;
+}
+
+#div13 {
+    color: white;
+    border-radius: 20px;
+    height: 100px;
+    width: 250px;
+    padding-top: 35px;
+    padding-left: 45px;
+    box-sizing:border-box;
+    border: black double 5px;
+    font-size: 20px;
+}

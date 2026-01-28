@@ -1,0 +1,14 @@
+p b {
+    color:rgb(137, 137, 249);
+}
+
+body span {
+    font-weight:bold;
+    background-color:black;
+    color:rgb(169, 227, 125);
+}
+
+html p i {
+    font-size: 60px;
+
+}

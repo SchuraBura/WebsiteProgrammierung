@@ -1,0 +1,11 @@
+div {
+    height: 300px;
+    width: 300px;
+    background-color: slateblue;
+    margin-bottom: 20px;
+
+}
+
+#unserZiel {
+    border: 10px black double;
+}

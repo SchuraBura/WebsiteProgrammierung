@@ -1,0 +1,24 @@
+p {
+    background-color: slateblue;
+}
+
+.float-left {
+    float: left;
+}
+
+.clear-left {
+    clear: left;
+
+}
+
+.float-right {
+    float: right;
+}
+
+.clear-right {
+    clear: right;
+}
+
+.clear-both {
+    clear:both;
+}

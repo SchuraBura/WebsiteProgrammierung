@@ -1,0 +1,36 @@
+div {
+    background-color: grey;
+    width: 400px;
+    height: 900px;
+}
+
+div ~ div {
+    background-color: lightgreen;
+    width: 600px;
+    height: 200px;
+    color: darkgrey;
+}
+#superImportant {
+    color: red;
+}
+
+.mostImportant {
+    color: pink;
+    background-color: black;
+}
+
+div > div {
+    width: 400px;
+    height: 150px;
+    background-color: skyblue;
+}
+
+#pDIV {
+    width: 400px;
+    height: 100px;
+    background-color: coral;
+}
+
+div > h1 {
+    color: rgb(113, 86, 23);
+}

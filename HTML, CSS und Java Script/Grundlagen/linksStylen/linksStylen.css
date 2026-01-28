@@ -1,0 +1,24 @@
+/* Love Fears HAte */
+/* LoVe HAte */
+
+a:link {
+    color: #000;
+}
+
+a:visited {
+    color: grey;
+}
+
+/* da es sehr selten verwendet wird
+a:focus{
+
+}
+*/
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: yellow;
+}

@@ -1,0 +1,356 @@
+
+/* === FONTS === */
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lato-v24-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/lato-v24-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/lato-v24-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/lato-v24-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/lato-v24-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/lato-v24-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
+  }
+  
+  @font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/lato-v24-latin-italic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/lato-v24-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/lato-v24-latin-italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/lato-v24-latin-italic.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/lato-v24-latin-italic.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/lato-v24-latin-italic.svg#Lato') format('svg'); /* Legacy iOS */
+  }
+  
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/lato-v24-latin-700.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/lato-v24-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/lato-v24-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/lato-v24-latin-700.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/lato-v24-latin-700.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/lato-v24-latin-700.svg#Lato') format('svg'); /* Legacy iOS */
+  }
+ 
+  @font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/lato-v24-latin-700italic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/lato-v24-latin-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/lato-v24-latin-700italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/lato-v24-latin-700italic.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/lato-v24-latin-700italic.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/lato-v24-latin-700italic.svg#Lato') format('svg'); /* Legacy iOS */
+  }
+
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/raleway-v29-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/raleway-v29-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/raleway-v29-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('../fonts/raleway-v29-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+       url('../fonts/raleway-v29-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+       url('../fonts/raleway-v29-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/raleway-v29-latin-italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/raleway-v29-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/raleway-v29-latin-italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('../fonts/raleway-v29-latin-italic.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+       url('../fonts/raleway-v29-latin-italic.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+       url('../fonts/raleway-v29-latin-italic.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/raleway-v29-latin-700.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/raleway-v29-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/raleway-v29-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('../fonts/raleway-v29-latin-700.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+       url('../fonts/raleway-v29-latin-700.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+       url('../fonts/raleway-v29-latin-700.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/raleway-v29-latin-700italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/raleway-v29-latin-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/raleway-v29-latin-700italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('../fonts/raleway-v29-latin-700italic.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+       url('../fonts/raleway-v29-latin-700italic.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+       url('../fonts/raleway-v29-latin-700italic.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+
+/* === FARBEN === */
+
+/*
+BLAU =        #1F4E8C
+GRAU =        #3D3F45
+HELL GRAU =   #E5E5E5
+ROT =         #A62C21
+*/
+
+/* === GLOBAL === */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* === GENERELLES === */
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.active {
+  background-color: #A62C21 !important;
+}
+
+/* === NAVIGATIONSLEISTE === */
+
+.header-nav {
+  background-color: #3D3F45;
+  width: 100%;
+  height: 50px;
+  position: relative;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.header-nav a > img {
+  height: 30px;
+  width: auto;
+  margin: .55rem;
+  float: left;
+}
+
+.header-nav ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+  height: 100%;
+
+}
+
+.header-nav ul > li {
+  display: inline-block;
+  height: 100%;
+  padding: 0 .4rem 0 .4rem;
+}
+
+.header-nav ul > li > a {
+  display: inline-block;
+  margin-top: .8rem;
+}
+
+.header-nav ul > li > a:link {
+  color:#fff;
+  text-decoration: none;
+}
+
+.header-nav ul > li > a:hover {
+  color: #E5E5E5;
+}
+
+.header-nav ul > li > a:active {
+  color: #E5E5E5;
+}
+
+.header-nav ul > li > a:visited {
+  color:#fff;
+  text-decoration: none;
+}
+
+.header-nav .col-6 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.header-nav .container,
+.header-nav .row,
+.header-nav .col-6 {
+  height: 100%;
+}
+
+/* === NAVIGATIONSLEISTE (MOBIL) === */
+
+.mobile-nav-button {
+  color: white;
+  float: right; 
+  font-size: 2rem; 
+  border: solid 2px white;
+  width: 37px;
+  height: 37px; 
+  position: relative;
+  margin-top: .4rem;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.mobile-nav-button > span {
+  position: absolute; 
+  bottom: -2px;
+  left: 7px;
+}
+
+.mobile-nav-content > ul > li {
+  display: block;
+  background-color: #3D3F45;
+  height: 50px;
+  padding: 0 1.2rem;
+  text-align: center;
+}
+
+.mobile-nav-dropdown {
+  position: relative;
+  display: block;
+  float: right;
+}
+
+.mobile-nav-content {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  display: none;
+}
+
+.mobile-nav-dropdown:hover > .mobile-nav-content {
+  display: block;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+}
+
+
+
+/* === HEADER-BANNER === */
+
+.header-banner {
+  width: 100%;
+  height: 0;
+  padding-top: 20.83%;
+  background: url("../img/hintergrund.jpg") no-repeat center center;
+  background-size: contain;
+}
+
+.header-banner-klein {
+  width: 100%;
+  height: 0;
+  padding-top: 15.625%;
+  background: url("../img/hintergrund-klein.jpg") no-repeat center center;
+  background-size: contain;
+}
+
+/* 
+=== GRID-SYSTEM (SICHTBARKEIT) === 
+
+.border, .border * {
+  border: 1px solid #91c4ff;
+}
+
+[class*='col-'] {
+  background-color: #BFDDFF;
+}
+
+p {
+  background-color: #91c4ff;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+*/
+
+/* === GRID-SYSTEM === */
+
+.container {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*='col-'] {
+  float: left;
+  min-height: 1px;
+  padding: .8rem;
+}
+
+.col-1 {width: 16.666%;}
+.col-2 {width: 33.333%;}
+.col-3 {width: 50%;}
+.col-6 {width: 100%;}
+
+/*
+
+=== WICHTIGE BREAKPOINTS ===
+
+320   Pixel   (iPhone Hochformat)
+480   Pixel   (iPhone Querformat)
+768   Pixel   (iPad Hochformat)
+1024  Pixel   (iPad Querformat)
+1200  Pixel   (Laptop)
+>1200 Pixel   (große Endgeräte)
+
+*/
+
+@media (max-width: 1024px) {
+  .col-1 {width: 33.333%;}
+}
+
+@media (max-width: 768px) {
+  .col-1 {width: 50%;}
+  .col-2 {width: 100%;}
+  .col-3 {width: 100%;}
+}
+
+@media (max-width: 480px) {
+  .col-1 {width: 100%;}
+  .col-2 {width: 100%;}
+  .col-3 {width: 100%;}
+}

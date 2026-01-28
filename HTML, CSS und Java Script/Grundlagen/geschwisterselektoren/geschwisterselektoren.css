@@ -1,0 +1,8 @@
+span ~ i {
+    color:coral;
+}
+
+i ~ b {
+    color: blue;
+}
+

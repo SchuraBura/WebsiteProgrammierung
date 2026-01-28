@@ -1,0 +1,82 @@
+body {
+    font-size: 30px;
+    font-family: "Flexo-Regular", arial, sans-serif;
+}
+
+#test1 {
+    font-family: serif; 
+}
+
+#test2 {
+    font-family: sans-serif;
+}
+
+#test3 {
+    font-family: cursive;
+}
+
+#test4 {
+    font-family: fantasy;
+}
+
+#test5 {
+    font-family: monospace;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .micro-5-regular {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  #externeSchriftart {
+    font-family: 'Roboto', sans-serif;
+    font-family: "Micro 5", sans-serif;
+  }

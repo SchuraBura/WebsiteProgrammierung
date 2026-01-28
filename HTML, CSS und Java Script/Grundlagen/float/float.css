@@ -1,0 +1,12 @@
+p {
+    background-color: slateblue;
+}
+
+.float-left {
+    float: left;
+    padding-right: 1rem;
+}
+
+.float-right {
+    float: right;
+}
